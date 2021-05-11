@@ -50,17 +50,15 @@ const Search = () => {
 
   return (
     <div className="Search">
-      <form>
-        <input
-          type="text"
-          name="pincode"
-          className="Search-Input"
-          maxLength="6"
-          onChange={onChangeHandler}
-          placeholder="Enter ZIP Code"
-          autoComplete="off"
-        />
-      </form>
+      <input
+        type="text"
+        name="pincode"
+        className="Search-Input"
+        maxLength="6"
+        onChange={onChangeHandler}
+        placeholder="Enter ZIP Code"
+        autoComplete="off"
+      />
       {listHeader}
       {loading ? (
         <h2>Loading...</h2>
