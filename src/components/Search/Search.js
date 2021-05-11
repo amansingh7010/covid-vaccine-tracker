@@ -33,7 +33,6 @@ const Search = () => {
       )
       const list = await response.json()
       setCenters(list.centers)
-      console.log(list)
     } finally {
       setLoading(false)
     }
