@@ -40,7 +40,7 @@ const Search = () => {
 
   const listHeader = (
     <div className="ListHeader">
-      {pincode.length === 6 && centers.length === 0 ? (
+      {pincode.length === 6 && centers.length === 0 && !loading ? (
         <p>No Results found for pin {pincode}</p>
       ) : pincode.length === 6 ? (
         <p>Showing results for {pincode}</p>
