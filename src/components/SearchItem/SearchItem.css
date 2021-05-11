@@ -1,0 +1,25 @@
+.Container {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 300px;
+  border-radius: 12px;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 20px;
+}
+
+.SearchItem-Table td {
+  padding: 3px 0px;
+}
+
+.Green {
+  color: green;
+}
+
+.Red {
+  color: red;
+}
+
+.Orange {
+  color: orange;
+}

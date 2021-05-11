@@ -1,0 +1,36 @@
+.Search {
+  padding: 20px 100px;
+}
+
+.Search-Input {
+  width: 30%;
+  height: 30px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+}
+
+.SearchItem-Wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .Search {
+    padding: 20px;
+  }
+
+  .Search-Input {
+    width: 100%;
+  }
+}
+
+input[type='text'] {
+  font-size: 24px;
+}
+
+.ListHeader {
+  font-size: larger;
+}
